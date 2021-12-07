@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<form>
+    <table>
+        <tr>
+            <th>Đăng Kí Học Viên</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Họ Và Tên</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Ngày Sinh</td>
+            <td><input type="number" min="1"></td>
+        </tr>
+        <tr>
+            <td>Giới Tính</td>
+            <td><label for="male">Nam</label>
+                <input id="male" name="sex" type="radio" value="Nam">
+                <label for="female" >Nữ</label>
+                <input id="female" name="sex" type="radio" value="Nữ">
+            </td>
+
+        </tr>
+        <tr>
+            <td>Địa Chỉ</td>
+            <td><textarea cols="50" rows="4"></textarea></td>
+        </tr>
+        <tr>
+            <td> <label for="address">Lớp</label></td>
+            <td><select name="Lớp" id="address">
+                <option value="" selected>-Chọn Lớp-</option>
+                <option value="Lớp 1"> Lớp 1</option>
+                <option value="Lớp 2">Lớp 2</option>
+                <option value="Lớp 3">Lớp 3</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Số Điện Thoại</td>
+            <td><input type="number"min="0"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <label> <input type="submit" value="Đăng Kí"></label>
+            <label> <input type="reset"value="Nhập Lại"></label>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
